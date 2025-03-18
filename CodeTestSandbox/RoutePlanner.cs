@@ -100,14 +100,14 @@ public class RoutePlanner
         return RecurseRoutePossible(from, to, mapMatrix, visited);
     }
 
-    public static void Main(string[] args)
-    {
-        bool[,] mapMatrix = {
-            {true, false, false},
-            {true, true, false},
-            {false, true, true}
-        };
+    //public static void Main(string[] args)
+    //{
+    //    bool[,] mapMatrix = {
+    //        {true, false, false},
+    //        {true, true, false},
+    //        {false, true, true}
+    //    };
 
-        Console.WriteLine(RouteExists(0, 0, 2, 2, mapMatrix));
-    }
+    //    Console.WriteLine(RouteExists(0, 0, 2, 2, mapMatrix));
+    //}
 }
